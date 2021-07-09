@@ -7,18 +7,29 @@ body{
 .label{
     color: whitesmoke;  
 }
-#element1 {
-    display:inline-block;
-    margin-right:10px;
-    margin-left: 2rem;
-    color: whitesmoke;
-} 
-#element2 {
-    display:inline-block;
-} 
 h3{
     color: whitesmoke;
 }
 .footer-li {
     width: 13rem;
 }
+.navbar{
+    background-color: black!important;
+}
+hr { 
+    display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 1px solid #ccc;
+    margin: 1em 0; 
+}
+#footer-twitter{
+    display:inline-block;
+    vertical-align:middle;
+}
+  
+#footer-fb{
+    display:inline-block;
+    vertical-align:middle;
+}
+  
