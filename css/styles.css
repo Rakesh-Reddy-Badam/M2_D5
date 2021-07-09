@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+.navbar{
+    background-color: black;
+}
+.label{
+    color: whitesmoke;  
+}
+#element1 {
+    display:inline-block;
+    margin-right:10px;
+    margin-left: 2rem;
+    color: whitesmoke;
+} 
+#element2 {
+    display:inline-block;
+} 
+h3{
+    color: whitesmoke;
+}
+.footer-li {
+    width: 13rem;
+}
