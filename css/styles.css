@@ -1,35 +1,32 @@
-body{
-    background-color: black;
+body {
+    background-color: #141414;
 }
-.navbar{
-    background-color: black;
-}
-.label{
-    color: whitesmoke;  
-}
-h3{
-    color: whitesmoke;
-}
-.footer-li {
-    width: 13rem;
-}
-.navbar{
-    background-color: black!important;
-}
-hr { 
-    display: block; 
-    height: 1px;
-    border: 0; 
-    border-top: 1px solid #ccc;
-    margin: 1em 0; 
-}
-#footer-twitter{
-    display:inline-block;
-    vertical-align:middle;
+.navbar-brand img {
+    position: relative;
+    left: -2rem;
 }
   
-#footer-fb{
-    display:inline-block;
-    vertical-align:middle;
+.btn {
+    color: white;
 }
   
+.btn:hover {
+    color: #d6d6d6;
+}
+  
+.btn-black {
+    background-color: #000;
+}
+  
+@media (max-width: 575px) {
+    .header-tools {
+      float: right;
+    }
+}
+  
+@media (min-width: 576px) {
+    .header-icons {
+      position: absolute;
+      right: 0;
+    }
+}
